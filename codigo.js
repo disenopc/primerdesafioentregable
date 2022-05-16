@@ -10,8 +10,8 @@ while ((nombreEmpleado != "") && (ingresarDosis >= "2")) {
     ingresarDosis = parseInt(prompt("Ingrese cantidad de dosis aplicadas"));
     empleado = empleado + nombreEmpleado;
 }
+console.log("Usuario No Autorizado" + ", " + nombreEmpleado + ", " + ingresarDosis + "dosis");
 alert("Usuario No Autorizado, corresponde aplicarse una dosis más para ingresar al establecimiento");
-console.log("Usuario No Autorizado" + ", " + nombreEmpleado + ingresarDosis + " dosis");
 
 
 //EJEMPLO usando for para registro
