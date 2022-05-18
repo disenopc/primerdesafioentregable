@@ -6,7 +6,7 @@ let ingresarDosis = parseInt(prompt("Ingrese cantidad de dosis aplicadas"));
 let empleado = "";
 while ((nombreEmpleado != "") && (ingresarDosis >= "2")) {
     alert("Bienvenido/a " + nombreEmpleado + ".");
-    console.log("Ingreso permitido: " + nombreEmpleado + ", " + ingresarDosis + "dosis");
+    console.log("Ingreso permitido: " + nombreEmpleado + ", " + ingresarDosis + " dosis");
     empleado = empleado + nombreEmpleado;
     nombreEmpleado = prompt("Registro de ingreso a la oficina: Ingrese su nombre completo");
     ingresarDosis = parseInt(prompt("Ingrese cantidad de dosis aplicadas"));
