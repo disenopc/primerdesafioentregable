@@ -13,4 +13,4 @@ while ((nombreEmpleado != "") && (ingresarDosis >= "2")) {
 
 }
 console.log("Ingreso no permitido" + ": " + nombreEmpleado + ", " + ingresarDosis + " dosis");
-alert("Usuario No Autorizado, corresponde aplicarse una dosis más para ingresar al establecimiento");
+alert("Ingreso no permitido, corresponde aplicarse al menos dos dosis para ingresar al establecimiento o bien realizarse un PCR con menos de 48hs");
